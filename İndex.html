@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CennetÖztürkveMustafaÇiftçi - ANI KUŞAĞI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stars"></canvas>
+  <header>
+    <h1>CennetÖztürkveMustafaÇiftçi</h1>
+    <h2>ANI KUŞAĞI</h2>
+  </header>
+
+  <main class="gallery">
+    <div class="photo" data-caption="Doğa 1"><img src="images/photo1.jpg" alt="Doğa 1"></div>
+    <div class="photo" data-caption="Doğa 2"><img src="images/photo2.jpg" alt="Doğa 2"></div>
+    <div class="photo" data-caption="Doğa 3"><img src="images/photo3.jpg" alt="Doğa 3"></div>
+    <div class="photo" data-caption="Doğa 4"><img src="images/photo4.jpg" alt="Doğa 4"></div>
+    <div class="photo" data-caption="Doğa 5"><img src="images/photo5.jpg" alt="Doğa 5"></div>
+  </main>
+
+  <div id="popup" class="hidden">
+    <span id="close">&times;</span>
+    <img id="popup-img" src="" alt="">
+    <p id="popup-caption"></p>
+  </div>
+
+  <div class="music-player">
+    <audio id="music" controls>
+      <source src="music/chopin.mp3" type="audio/mpeg">
+    </audio>
+    <button id="changeMusic">Şarkıyı Değiştir</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
